@@ -1,0 +1,37 @@
+/* Custom CSS */
+html, body {
+  font-family: 'Syne', sans-serif !important;
+}
+
+h1 {
+  display: inline-block;
+  width: 48%;
+}
+
+.col {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  color: white;
+  background-color: #152238;
+  margin: 10px;
+  padding: 20px;
+}
+
+.panel.lower {
+  margin-right: 0x
+}
+
+.title-section {
+  height: 32vh
+}
+
+.feature-section {
+ height: 45vh;
+}
+
+.contact-section {
+  height: 25vh;
+}
