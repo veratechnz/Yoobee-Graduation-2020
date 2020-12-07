@@ -6,15 +6,23 @@ html, body {
 body {
   background-image: url('img/bg-draft.png');
   background-repeat: repeat;
+  padding: 20px;
 }
 
-h1 {
-  display: inline-block;
-  width: 48%;
+.animation {
+  color: #E17A27;
 }
 
-p {
-  font-size: 18px;
+.web {
+  color: #C0C63E;
+}
+
+.design {
+  color: #C0C63E;
+}
+
+.name {
+  font-size: 1.8em;
 }
 
 .col {
@@ -24,17 +32,42 @@ p {
 .panel {
   flex: 1;
   color: white;
-  background-color: rgba(29, 25, 62, 0.98);
-  margin: 10px;
-  padding: 20px;
+  background-color: rgba(19, 20, 39, 0.98);
+  margin: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-feature {
+  flex-direction: row;
+}
+
+.blurb {
+  font-size: 1.8em;
+}
+
+.name {
+  justify-content: flex-end;
+}
+
+.student-image .panel {
+  padding-top: 30px;
 }
 
 .title-section {
-  height: 38vh
+  height: 45vh;
 }
 
 .feature-section {
- height: 43vh;
+ max-height: 45vh;
+ max-resolution: 1vh;
+}
+
+.feature-section .panel {
+  max-height: 45vh;
+  display: flex;
+  margin-top: 3vh;
 }
 
 .contact-section {
@@ -44,6 +77,62 @@ p {
 .panel.lower-a {
   margin-right: 0px;
 }
+
 .panel.lower-b {
   margin-left: 0px;
+}
+
+.background {
+  background-color: #1D193E;
+}
+
+.profile {
+  height: 38vh;
+  margin: 10px 0px 20px 0px;
+  margin-top: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
+.image {
+  height: 38vh;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.border-green {
+  border-color: #C0C63E;
+  border-style: solid;
+}
+
+.border-pink {
+  border-color: #E41D56;
+  border-style: solid;
+}
+
+.border-orange {
+  border-color: #E17A27;
+  border-style: solid;
+}
+
+.nav-text {
+  color: white !important;
+  margin: 0px 30px;
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.feature-img {
+  width: 100%; // to maintain aspect ratio. You can use 100% if you don't care about that
+  height: 100%;
+}
+
+.animation-holder .panel{
+  border: 2px solid #E17A27;
 }
