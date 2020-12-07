@@ -3,9 +3,18 @@ html, body {
   font-family: 'Syne', sans-serif !important;
 }
 
+body {
+  background-image: url('img/bg-draft.png');
+  background-repeat: repeat;
+}
+
 h1 {
   display: inline-block;
   width: 48%;
+}
+
+p {
+  font-size: 18px;
 }
 
 .col {
@@ -15,23 +24,26 @@ h1 {
 .panel {
   flex: 1;
   color: white;
-  background-color: #152238;
+  background-color: rgba(29, 25, 62, 0.98);
   margin: 10px;
   padding: 20px;
 }
 
-.panel.lower {
-  margin-right: 0x
-}
-
 .title-section {
-  height: 32vh
+  height: 38vh
 }
 
 .feature-section {
- height: 45vh;
+ height: 43vh;
 }
 
 .contact-section {
-  height: 25vh;
+  height: 20vh;
+}
+
+.panel.lower-a {
+  margin-right: 0px;
+}
+.panel.lower-b {
+  margin-left: 0px;
 }
