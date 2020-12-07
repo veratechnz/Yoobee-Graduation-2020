@@ -13,6 +13,10 @@ body {
   text-align: right;
 }
 
+.title-section h3 {
+  text-align: right;
+}
+
 .animation {
   color: #E17A27;
 }
@@ -26,7 +30,7 @@ body {
 }
 
 .name {
-  font-size: 1.95em;
+  font-size: 1.85em;
   margin-bottom: 0.25em;
 }
 
@@ -46,6 +50,10 @@ body {
 
 .panel-feature {
   flex-direction: row;
+}
+
+.panel-titles {
+  justify-content: space-between;
 }
 
 .blurb {
