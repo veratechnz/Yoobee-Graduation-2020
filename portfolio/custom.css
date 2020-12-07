@@ -31,7 +31,6 @@ body {
 
 .name {
   font-size: 1.85em;
-  margin-bottom: 0.25em;
 }
 
 .col {
@@ -69,16 +68,16 @@ body {
 }
 
 .title-section {
-  height: 45vh;
+  height: 51vh;
 }
 
 .feature-section {
- max-height: 45vh;
+ max-height: 51vh;
  max-resolution: 1vh;
 }
 
 .feature-section .panel {
-  max-height: 45vh;
+  max-height: 51vh;
   display: flex;
   margin-top: 3vh;
 }

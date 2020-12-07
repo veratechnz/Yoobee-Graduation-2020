@@ -1,0 +1,178 @@
+/* Custom CSS */
+html, body {
+  font-family: 'Syne', sans-serif !important;
+}
+
+/* body {
+  background-image: url('img/bg-design.png');
+  background-repeat: repeat;
+  padding: 20px;
+} */
+
+.title-section h1 {
+  text-align: right;
+}
+
+.title-section h3 {
+  text-align: right;
+}
+
+.animation {
+  color: #E17A27;
+}
+
+.web {
+  color: #C0C63E;
+}
+
+.design {
+  color: #E41D56;
+}
+
+.name {
+  font-size: 1.85em;
+}
+
+.col {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  color: white;
+  background-color: rgba(19, 20, 39, 0.975);
+  margin: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-feature {
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+
+.blurb {
+  font-size: 1.8em;
+}
+
+.name {
+  justify-content: flex-end;
+}
+
+.student-image .panel {
+  padding-top: 30px;
+}
+
+.title-section {
+  height: 55vh;
+}
+
+.feature-section {
+ max-height: 65vh;
+ max-resolution: 1vh;
+}
+
+.feature-section .panel {
+  max-height: 65vh;
+  display: flex;
+  margin-top: 3vh;
+}
+
+.contact-section {
+  height: 20vh;
+}
+
+.panel.lower-a {
+  margin-right: 0px;
+}
+
+.panel.lower-b {
+  margin-left: 0px;
+}
+
+.background {
+  background-color: #1D193E;
+}
+
+.profile {
+  height: 38vh;
+  margin: 10px 0px 20px 0px;
+  margin-top: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+}
+
+.image {
+  height: 38vh;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.border-green {
+  border-color: #C0C63E;
+  border-style: solid;
+}
+
+.border-pink {
+  border-color: #E41D56;
+  border-style: solid;
+}
+
+.border-orange {
+  border-color: #E17A27;
+  border-style: solid;
+}
+
+.nav-text {
+  color: white !important;
+  margin: 0px 30px;
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.feature-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.animation-holder .panel{
+  border: 2px solid #E17A27;
+}
+
+.design-holder {
+  background-image: url('img/bg-design.png');
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.web-holder {
+  background-image: url('img/green-bg.png');
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.animation-holder {
+  background-image: url('img/bg-design.png');
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.design-holder .panel{
+  border: 2px solid #E41D56;
+}
+
+.web-holder .panel{
+  border: 2px solid #C0C63E;
+}
