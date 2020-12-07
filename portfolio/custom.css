@@ -41,7 +41,7 @@ body {
 .panel {
   flex: 1;
   color: white;
-  background-color: rgba(19, 20, 39, 0.98);
+  background-color: rgba(19, 20, 39, 0.975);
   margin: 5px;
   padding: 30px;
   display: flex;
