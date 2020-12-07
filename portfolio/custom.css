@@ -9,6 +9,10 @@ body {
   padding: 20px;
 }
 
+.title-section h1 {
+  text-align: right;
+}
+
 .animation {
   color: #E17A27;
 }
@@ -22,7 +26,8 @@ body {
 }
 
 .name {
-  font-size: 1.8em;
+  font-size: 1.95em;
+  margin-bottom: 0.25em;
 }
 
 .col {
