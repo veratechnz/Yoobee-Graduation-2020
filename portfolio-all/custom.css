@@ -3,11 +3,10 @@ html, body {
   font-family: 'Syne', sans-serif !important;
 }
 
-/* body {
-  background-image: url('img/bg-design.png');
+body {
   background-repeat: repeat;
-  padding: 20px;
-} */
+  padding: 5vh 0px;
+}
 
 .title-section h1 {
   text-align: right;
@@ -41,7 +40,7 @@ html, body {
   flex: 1;
   color: white;
   background-color: rgba(19, 20, 39, 0.975);
-  margin: 5px;
+  margin: 25px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -70,22 +69,18 @@ html, body {
 }
 
 .title-section {
-  height: 55vh;
+  height: 50vh;
 }
 
 .feature-section {
- max-height: 65vh;
+ max-height: 40vh;
  max-resolution: 1vh;
 }
 
 .feature-section .panel {
-  max-height: 65vh;
+  max-height: 40vh;
   display: flex;
-  margin-top: 3vh;
-}
-
-.contact-section {
-  height: 20vh;
+  margin-top: 0vh;
 }
 
 .panel.lower-a {
@@ -153,20 +148,14 @@ html, body {
 
 .design-holder {
   background-image: url('img/bg-design.png');
-  background-repeat: repeat;
-  padding: 20px;
 }
 
 .web-holder {
   background-image: url('img/green-bg.png');
-  background-repeat: repeat;
-  padding: 20px;
 }
 
 .animation-holder {
-  background-image: url('img/bg-design.png');
-  background-repeat: repeat;
-  padding: 20px;
+  background-image: url('img/bg-animation.png');
 }
 
 .design-holder .panel{
